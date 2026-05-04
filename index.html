@@ -372,8 +372,8 @@ function cek(){
     const wib = new Date(now.toLocaleString("en-US",{timeZone:"Asia/Jakarta"}));
     const jam = wib.getHours();
 
-    if(jam < 18){
-        document.getElementById("info").innerText = "⏳ Dibuka setelah jam 18.00 WIB";
+    if(jam < 14){
+        document.getElementById("info").innerText = "⏳ Dibuka setelah jam 14.00 WIB";
         return;
     }
 
